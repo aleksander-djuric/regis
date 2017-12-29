@@ -1,0 +1,50 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100% auto;
+	background: #ffffff;
+}
+
+/* controls */
+
+.button { margin: 5px; }
+
+/* content */
+
+#content {
+	text-align: center;
+	width: 640px;
+	margin: 10px auto;
+}
+
+#view {
+	text-align: left;
+	height: 400px;
+	overflow: auto;
+	background-color: #f0f0ff;
+	padding: 10px;
+	border: 1px solid #c0c0c0;
+}
+
+.error {
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-color: red;
+}
+
+.install {
+	width: 100%;
+	border: 1px solid #c0c0c0;
+	border-collapse: collapse;
+	color: #348;
+}
+
+.install td {
+	padding: 3px 5px;
+	border: 1px solid #c0c0c0;
+}
+
+.install_header { font-weight: bold; }

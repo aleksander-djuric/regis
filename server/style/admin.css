@@ -1,0 +1,72 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100% auto;
+	background: #ffffff;
+}
+
+#container { position: relative; }
+
+/* controls */
+
+#search {
+	background: #4fa1ca;
+	padding: 5px 20px;
+}
+
+#actions { padding-left: 235px; }
+
+#content {
+	margin-left: 230px;
+	margin-right: 20px;
+}
+
+#editor {
+	border-collapse: collapse;
+	color: #348;
+}
+
+#navigation {
+	margin-left: 225px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.button { margin: 5px; }
+
+/* license list */
+
+.content {
+	border: 1px solid #c0c0c0;
+	border-collapse: collapse;
+	color: #348;
+}
+
+.content td {
+	padding: 3px 5px;
+	border: 1px solid #c0c0c0;
+}
+
+.content_header { font-weight: bold; }
+
+/* menu */
+
+#menu {
+	width: 180px;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	padding: 5px;
+	border: 1px solid #c0c0c0;
+}
+
+.menuitem {
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.submenu {
+	padding: 0 18px;
+	background-color: white;
+	transition: max-height 0.2s ease-out;
+}
